@@ -1,15 +1,15 @@
 # Fievel Goes East (Scarp)
  
-Note: This is the repo for a Stardew Valley mod. The currently released version of the mod is available on (Nexus Mods)[https://www.nexusmods.com/stardewvalley/mods/17315].
+Note: This is the repo for a Stardew Valley mod. The currently released version of the mod is available on [Nexus Mods](https://www.nexusmods.com/stardewvalley/mods/17315).
 
-"Head up, eyes steady, heart open!"
+**"Head up, eyes steady, heart open!"**
 ﻿﻿﻿﻿
 Introducing: Fievel (he/him)!
 Fievel found his way to East Scarp﻿ via boat, all the way from Gotoro! Can you help him make friends, turn his house into a home, and build his entrepreneurial confidence? If so, he may just reward you with something very special! 
 
 ES' Fievel is an adaption of the character from Don Bluth's An American Tail, redesigned to be the same "species" as Hat Mouse and written to fit into Stardew's lore. Immersion-wise, he should fit comfortably into any East Scarp playthrough.
 
-Summer 2023 Hat Mouse Event Entry 
+***Summer 2023 Hat Mouse Event Entry***
 
 ﻿⊱ ──────────────────────────────────────────────── ⊰
 ﻿

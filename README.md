@@ -1,6 +1,7 @@
 # Fievel Goes East (Scarp)
   
-https://eastscarp.wiki.gg/images/0/05/Fievel_Portrait.png
+![Fievel_Portrait](https://github.com/TheFrenchDodo35/FievelGoesEastScarp/assets/1721695/51edbdaf-ca17-4aca-b2ad-472a7111a7bb)
+
    
 Note: This is the repo for a Stardew Valley mod. The currently released version of the mod is available on [Nexus Mods](https://www.nexusmods.com/stardewvalley/mods/17315).
 

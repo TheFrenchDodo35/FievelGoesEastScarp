@@ -188,29 +188,19 @@ Atravita: Emotional Support!
       "Action": "Load",
       "Target": "Characters/Fievel, Portraits/Fievel",
       "FromFile": "Assets/{{Target}}/Fievel.png",
-      "When": {
-        "HasSeenEvent |contains=17315005": false
-      },
     },
     {
-      "LogName": "Fievel (No Hat)",
-      "Action": "Load",
-      "Target": "Characters/Fievel, Portraits/Fievel",
-      "FromFile": "Assets/{{Target}}/Fievel_NoHat.png",
-      "When": {
-        "HasSeenEvent |contains=17315005": true
-      },
-    },
-    {
-      "Action": "Load",
+      "Action": "EditImage",
       "Target": "Portraits/MunchboiHat",
-      "FromFile": "assets/TemporaryActors/Portraits/Munchboi_hat.png"
+      "FromFile": "assets/TemporaryActors/Portraits/Munchboi_hat.png",
+      "PatchMode": "Replace",
     },
   
     {
-      "Action": "Load",
+      "Action": "EditImage",
       "Target": "Characters/MunchboiHat",
-      "FromFile": "assets/TemporaryActors/Characters/Munchboi_hat.png"
+      "FromFile": "assets/TemporaryActors/Characters/Munchboi_hat.png",
+      "PatchMode": "Replace",
     },
     {
       "Action": "Load",
@@ -292,7 +282,26 @@ Atravita: Emotional Support!
               },
               "Direction": "Down"
             }
-          ]
+          ],
+        "Appearance": [
+                        //Spring
+                        {
+                            "ID": "Fievel with hat",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Host 17315005",
+                            "Precedence": 0, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/Fievel/Fievel.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Fievel/Fievel.png}}"
+                        },
+                        {
+                            "ID": "Fievel no hat",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Host 17315005",
+                            "Precedence": -10, 
+                            "Weight": 1,
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/Fievel_NoHat.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Fievel_NoHat.png}}"
+                        },
+        ]
         }
       }
     },
